@@ -35,62 +35,65 @@
     <header class="font-[fontPoppins]">
         <div class="bg-[#264653] lg:px-14 lg:py-8">
             <!-- navbar section start  -->
-        <div class="navbar justify-end relative">
-            <div class="navbar-end">
-                <div class="hidden lg:block text-white">
-                    <div class="flex justify-end items-center gap-8">
-                        <ul class="flex justify-end items-center gap-8">
+            <div class="navbar justify-end relative">
+                <div class="navbar-end">
+                    <div class="hidden lg:block text-white">
+                        <div class="flex justify-end items-center gap-8">
+                            <ul class="flex justify-end items-center gap-8">
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Shop</a></li>
+                                <li><a href="">News</a></li>
+                                <li><a href="">Contact</a></li>
+                            </ul>
+                            <button class="btn border-0 rounded-md text-white bg-[#E76F51]">
+                                Login
+                            </button>
+                        </div>
+                    </div>
+                    <div class="dropdown lg:hidden block">
+                        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6 19.5C6.82843 19.5 7.5 18.8284 7.5 18C7.5 17.1716 6.82843 16.5 6 16.5C5.17157 16.5 4.5 17.1716 4.5 18C4.5 18.8284 5.17157 19.5 6 19.5Z"
+                                    fill="white" />
+                                <path
+                                    d="M30.09 16.5H11.91C11.1313 16.5 10.5 17.1313 10.5 17.91V18.09C10.5 18.8687 11.1313 19.5 11.91 19.5H30.09C30.8687 19.5 31.5 18.8687 31.5 18.09V17.91C31.5 17.1313 30.8687 16.5 30.09 16.5Z"
+                                    fill="white" />
+                                <path
+                                    d="M30.09 24H5.91C5.13128 24 4.5 24.6313 4.5 25.41V25.59C4.5 26.3687 5.13128 27 5.91 27H30.09C30.8687 27 31.5 26.3687 31.5 25.59V25.41C31.5 24.6313 30.8687 24 30.09 24Z"
+                                    fill="white" />
+                                <path
+                                    d="M30.09 9H5.91C5.13128 9 4.5 9.63128 4.5 10.41V10.59C4.5 11.3687 5.13128 12 5.91 12H30.09C30.8687 12 31.5 11.3687 31.5 10.59V10.41C31.5 9.63128 30.8687 9 30.09 9Z"
+                                    fill="white" />
+                            </svg>
+
+                        </div>
+                        <ul tabindex="0"
+                            class="menu absolute top-10 -left-48 menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             <li><a href="">Home</a></li>
                             <li><a href="">Shop</a></li>
                             <li><a href="">News</a></li>
                             <li><a href="">Contact</a></li>
+                            <li><button class="btn w-1/2 text-white bg-[#E76F51]">Login</button></li>
                         </ul>
-                        <button class="btn border-0 rounded-md text-white bg-[#E76F51]">
-                            Login
-                        </button>
                     </div>
                 </div>
-                <div class="dropdown lg:hidden block">
-                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M6 19.5C6.82843 19.5 7.5 18.8284 7.5 18C7.5 17.1716 6.82843 16.5 6 16.5C5.17157 16.5 4.5 17.1716 4.5 18C4.5 18.8284 5.17157 19.5 6 19.5Z"
-                                fill="white" />
-                            <path
-                                d="M30.09 16.5H11.91C11.1313 16.5 10.5 17.1313 10.5 17.91V18.09C10.5 18.8687 11.1313 19.5 11.91 19.5H30.09C30.8687 19.5 31.5 18.8687 31.5 18.09V17.91C31.5 17.1313 30.8687 16.5 30.09 16.5Z"
-                                fill="white" />
-                            <path
-                                d="M30.09 24H5.91C5.13128 24 4.5 24.6313 4.5 25.41V25.59C4.5 26.3687 5.13128 27 5.91 27H30.09C30.8687 27 31.5 26.3687 31.5 25.59V25.41C31.5 24.6313 30.8687 24 30.09 24Z"
-                                fill="white" />
-                            <path
-                                d="M30.09 9H5.91C5.13128 9 4.5 9.63128 4.5 10.41V10.59C4.5 11.3687 5.13128 12 5.91 12H30.09C30.8687 12 31.5 11.3687 31.5 10.59V10.41C31.5 9.63128 30.8687 9 30.09 9Z"
-                                fill="white" />
-                        </svg>
-
+            </div>
+            <!-- banner section start  -->
+            <div class="hero">
+                <div class="hero-content flex-col-reverse lg:flex-row-reverse">
+                    <img src="images/slider/banner-bike.png" class="max-w-sm rounded-lg shadow-2xl w-full" />
+                    <div class="text-white">
+                        <p>Computer-controlled digital transistorized with electronic advance</p>
+                        <h1 class="text-5xl font-bold">Honda CBR 300R</h1>
+                        <p class="py-6">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                            officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                        <button class="btn btn-primary border-0 bg-[#E76F51] text-white w-1/4">Purchase</button>
                     </div>
-                    <ul tabindex="0"
-                        class="menu absolute top-10 -left-48 menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Shop</a></li>
-                        <li><a href="">News</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><button class="btn w-1/2 text-white bg-[#E76F51]">Login</button></li>
-                    </ul>
                 </div>
             </div>
-        </div>
-        <!-- banner section start  -->
-        <div class="hero">
-            <div class="hero-content flex-col-reverse lg:flex-row-reverse">
-              <img src="images/slider/banner-bike.png" class="max-w-sm rounded-lg shadow-2xl w-full" />
-              <div class="text-white">
-                <p>Computer-controlled digital transistorized with electronic advance</p>
-                <h1 class="text-5xl font-bold">Honda CBR 300R</h1>
-                <p class="py-6">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <button class="btn btn-primary border-0 bg-[#E76F51] text-white w-1/4">Purchase</button>
-              </div>
-            </div>
-          </div>
         </div>
     </header>
     <main>
@@ -103,8 +106,7 @@
             </div>
             <div class="flex flex-col lg:flex-row justify-center items-center gap-3 mt-10">
                 <img class="w-[250px]" src="images/slider/banner-bike.png" alt="">
-                <img class="w-[250px]" src="images/others/feature-bike.png" 
-                alt="">
+                <img class="w-[250px]" src="images/others/feature-bike.png" alt="">
                 <img class="w-[250px]" src="images/slider/bike3.png" alt="">
             </div>
         </div>
@@ -114,23 +116,91 @@
                 <h1 class="text-3xl font-bold">Latest News</h1>
             </div>
             <div class="flex flex-col lg:flex-row justify-center items-center gap-5 mt-10">
-                <div class="border-[1px] border-slate-200 p-3">
+                <div class="border-[1px] shadow-md border-slate-200 p-3">
                     <img src="images/others/latest1.png" alt="">
                     <h3 class="text-xl font-bold">Ducati XDIAVEL S-73</h3>
-                    <p class="lg:w-10/12 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                    <p class="lg:w-10/12 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum
+                        amet faucibus sed id nisi lectus at.</p>
                     <button class="btn rounded text-white bg-[#E76F51]">Read More</button>
                 </div>
-                <div class="border-[1px] border-slate-200 p-3">
+                <div class="border-[1px] shadow-md border-slate-200 p-3">
                     <img src="images/others/latest2.png" alt="">
                     <h3 class="text-xl font-bold">Motorcycles & Scooters</h3>
-                    <p class="lg:w-10/12 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-                    <button class="btn btn-outline text-[#E76F51] rounded hover:border-0 hover:bg-[#E76F51]">Read More</button>
+                    <p class="lg:w-10/12 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum
+                        amet faucibus sed id nisi lectus at.</p>
+                    <button class="btn btn-outline text-[#E76F51] rounded hover:border-0 hover:bg-[#E76F51]">Read
+                        More</button>
                 </div>
-                <div class="border-[1px] border-slate-200 p-3">
+                <div class="border-[1px] shadow-md border-slate-200 p-3">
                     <img src="images/others/latest3.png" alt="">
                     <h3 class="text-xl font-bold">2021 Honda CBR500R</h3>
-                    <p class="lg:w-10/12 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-                    <button class="btn btn-outline text-[#E76F51] rounded hover:border-0 hover:bg-[#E76F51]">Read More</button>
+                    <p class="lg:w-10/12 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum
+                        amet faucibus sed id nisi lectus at.</p>
+                    <button class="btn btn-outline text-[#E76F51] rounded hover:border-0 hover:bg-[#E76F51]">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+        <!-- Happy Clients  says section  -->
+        <div class="lg:my-14 lg:mx-14">
+            <div class="text-center mb-10">
+                <h1 class="text-3xl font-bold">Happy <span class="text-[#E76F51]">Clients says</span></h1>
+            </div>
+            <!-- clients section  -->
+            <div class="flex flex-col lg:flex-row justify-center items-center gap-5">
+                <div class="border-[1px] shadow-md border-slate-200 p-3">
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="w-64" src="images/others/user-1.png" alt="">
+                        <p class="lg:w-10/12 mb-3">Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="rating mb-3">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <p class="text-[#23A6F0]">Regina Miles</p>
+                        <p class="font-bold">Banker</p>
+                    </div>
+                </div>
+                <div class="border-[1px] shadow-md border-slate-200 p-3">
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="w-64" src="images/others/user-2.png" alt="">
+                        <p class="lg:w-10/12 mb-3">Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.</p>
+                        <div class="rating mb-3">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <p class="text-[#23A6F0]">Regina Miles</p>
+                        <p class="font-bold">Banker</p>
+                    </div>
+                </div>
+                <div class="border-[1px] shadow-md border-slate-200 p-3">
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="w-64" src="images/others/user-3.png" alt="">
+                        <p class="lg:w-10/12 mb-3">Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.</p>
+                        <div class="rating mb-3">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <p class="text-[#23A6F0]">Regina Miles</p>
+                        <p class="font-bold">Banker</p>
+                    </div>
                 </div>
             </div>
         </div>
